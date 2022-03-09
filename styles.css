@@ -1,0 +1,120 @@
+body{
+    margin: 10rem ;
+    font-family: "Lexend Deca";
+    background-color: hsl(0, 0%, 95%);
+    
+}
+
+.row{
+    width: 230px;
+    margin-bottom: 20px;
+}
+
+.col{
+    padding: 1.4rem;
+    text-align: left;
+}
+
+h1{
+    font-family: "Big Shoulders Display";
+    font-size: 35px;
+    padding-bottom: 3px;
+    color: hsl(0, 0%, 95%);
+}
+
+p{
+    font-size: 11px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.img{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.sedan{
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.SUV{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-left-radius:5px ;
+    border-bottom-right-radius: 5px;
+}
+
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    font-size: 10px;
+    background: hsl(0, 0%, 95%);
+    padding: 8px 18px 8px 18px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    position: relative;
+    right: 2px;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    text-decoration: none;
+  }
+
+
+  .btn-sedan{
+    color: hsl(31, 77%, 52%);
+  }
+
+  .btn-SUV{
+      color: hsl(184, 100%, 22%);
+  }
+
+  .btn-luxury{
+      color: hsl(179, 100%, 13%);
+  }
+
+  .btn-sedan:hover{
+      background-color:transparent ;
+      color: white;
+  }
+
+  .btn:hover{
+    background-color:transparent ;
+    color: white;
+    border: 1px solid white;
+  }
+
+  @media(min-width:770px){
+      body{
+          padding-left: auto;
+          padding-right: auto;
+      }
+
+      .row{
+          width: 1060px;
+      }
+
+      .sedan{
+          border-radius: 0;
+          border-top-left-radius: 5px;
+          border-bottom-left-radius: 5px;
+      }
+
+      .luxury{
+          border-radius: 0;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+      }
+
+      .btn-sedan{
+          position: relative;
+          top: 13px;
+      }
+  }
